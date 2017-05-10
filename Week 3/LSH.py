@@ -24,7 +24,7 @@ for i in itertools.combinations(list(range(0, array.shape[1])), 2):
 
     result.append((i, identicalBand))
 
-print result
+print(result)
 
 n=24.0
 r=[1,2,3,4,6,8,12,24]

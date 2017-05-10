@@ -43,4 +43,4 @@ for i in itertools.combinations(list(range(0,n)), 2):
             union+=1
     result.append((i, inter, union))
 
-print result
+print(result)
